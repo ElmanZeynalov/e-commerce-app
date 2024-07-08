@@ -1,9 +1,7 @@
-import React from 'react';
+import React from "react";
 
 function SinglePage() {
-    return (
-        <div>single</div>
-    );
+  return <div>single</div>;
 }
 
 export default SinglePage;
