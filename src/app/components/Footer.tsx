@@ -31,7 +31,7 @@ function Footer() {
             <div className="flex flex-col gap-6">
               <Link href="/">About Us</Link>
               <Link href="/">Careers</Link>
-              <Link href="/">Afffiliates</Link>
+              <Link href="/">Affiliates</Link>
               <Link href="/">Blog</Link>
               <Link href="/">Contact Us</Link>
             </div>
@@ -95,6 +95,20 @@ function Footer() {
               height={20}
             />
             <Image src="/visa.png" alt={"vise"} width={40} height={20} />
+          </div>
+        </div>
+      </div>
+      {/*{buttom}*/}
+      <div className="flex flex-col md:flex-row items-center justify-between gap-8 pt-24">
+        <div className="">© 2024 Lama Shop</div>
+        <div className="flex flex-col gap-8 md:flex-row">
+          <div>
+            <span className="text-gray-500 mr-4">Language</span>
+            <span>United States | English</span>
+          </div>
+          <div>
+            <span className="text-gray-500 mr-4">Currency</span>
+            <span className="font-medium">USD $</span>
           </div>
         </div>
       </div>
